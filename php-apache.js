@@ -11,4 +11,8 @@ App.prototype.deploy = function(deployment) {
     deployment.deploy(this.service);
 };
 
+App.prototype.place = function(rule) {
+    this.service.place(rule);
+};
+
 module.exports = App;
