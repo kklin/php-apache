@@ -1,3 +1,9 @@
 {
-    "main": "./php-apache.js"
+  "name": "@quilt/php-apache",
+  "version": "0.0.1",
+  "main": "./php-apache.js",
+  "license": "MIT",
+  "dependencies": {
+    "@quilt/quilt": "quilt/quilt"
+  }
 }

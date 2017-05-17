@@ -1,3 +1,4 @@
+const {Container, Service, publicInternet} = require("@quilt/quilt");
 var defaultImage = "quilt/php-apache";
 
 function App(image) {

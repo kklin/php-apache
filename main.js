@@ -1,4 +1,5 @@
-var App = require("github.com/quilt/php-apache");
+const {createDeployment, Machine} = require("@quilt/quilt");
+var App = require("./php-apache.js");
 
 var deployment = createDeployment();
 
